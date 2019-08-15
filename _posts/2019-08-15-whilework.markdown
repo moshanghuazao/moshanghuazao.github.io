@@ -131,7 +131,7 @@ while i <= n:
     print(' '*space_num + "*"*star_num) 
     i += 1                              
 
-''':
+:
 
 	     A
 	    ABA
@@ -139,7 +139,6 @@ while i <= n:
 	  ABCDCBA
 	 ABCDEDCBA
 	ABCDEFEDCBA
-'''
 
 n = 6
 
