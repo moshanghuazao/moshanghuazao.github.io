@@ -5,9 +5,11 @@ date:   2019-08-13 19:15:24 +0800
 categories: jekyll update
 ---
 
-###1、书写一个程序，用户输入一个数字（圆的半径）要求输出该圆的半径、周长和面积，输出格式如下：
-import math</br>
-pi = math.pi</br>
+### 1、书写一个程序，用户输入一个数字（圆的半径）要求输出该圆的半径、周长和面积，输出格式如下：
+import math
+
+pi = math.pi
+
 r = float(input("圆的半径是："))
 #### 	 该圆半径为：xx
 print("该圆的半径为：{}".format(r))
@@ -20,63 +22,106 @@ print("该圆的面积为：{}".format(S1))
 
 
 ### 2、解释以下程序的打印结果
-print(1 + 10 * 2 / 2 - 5)</br>
-0乘2再除2等于10，-5加10等于5，5加1等于6</br></br>
-print(3.0 / 5)</br>
-3.0除以5等于0.6，运算结果是float型</br></br>
-print(3.0 // 5)</br>
-3.0除以5结果向下取整等于0</br></br>
-print('a' * 10)</br>
-字符a重复10次</br></br>
-print(True + 3)</br>
-True=1,结果是4</br></br>
-print(False + 3)</br>
-False=0,结果是3</br></br>
-print('hello' > 'world')</br>
-字符长度一样，w大于h，所以结果是False</br></br>
-print('h' > 1)</br>
-出错，不同数据类型之间不能比较</br>
+print(1 + 10 * 2 / 2 - 5)
+
+0乘2再除2等于10，-5加10等于5，5加1等于6
+
+print(3.0 / 5)
+
+3.0除以5等于0.6，运算结果是float型
+
+print(3.0 // 5)
+
+3.0除以5结果向下取整等于0
+
+print('a' * 10)
+
+字符a重复10次
+
+print(True + 3)
+
+True=1,结果是4
+
+print(False + 3)
+
+False=0,结果是3
+
+print('hello' > 'world')
+
+字符长度一样，w大于h，所以结果是False
+
+print('h' > 1)
+
+出错，不同数据类型之间不能比较
 
 ### 3、说出以下正确的定义变量有哪些？
- ab = 10   正确</br></br>
- *a = 20   不正确</br></br>
- _a = 20   正确</br></br>
- pass = 1     不正确</br></br>
- global = 2   不正确</br></br>
- 1a = "hello"   不正确</br></br>
- b = '''world'''   正确</br></br>
- python = ""hi""   不正确</br></br>
+ ab = 10   正确
+
+ *a = 20   不正确
+
+ _a = 20   正确
+
+ pass = 1     不正确
+
+ global = 2   不正确
+
+ 1a = "hello"   不正确
+
+ b = '''world'''   正确
+
+ python = ""hi""   不正确
 
 ### 4. 定义一个变量。用来存储我卡上有100块钱，到银行存了1000块钱，打印输出现在我卡上多少钱
-money = 100</br>
-money = money + 1000</br>
+money = 100
+
+money = money + 1000
+
 print("卡上余额：{}".format(money))
 ### 5、班费有199块钱，买了30支笔，每支笔2.5元，买了5个杯子，5元一个，打印输出班费还剩多少钱？
-class_money = 199</br>
-class_money = class_money - (30 * 2.5 + 5 * 5)</br>
+class_money = 199
+
+class_money = class_money - (30 * 2.5 + 5 * 5)
+
 print("班费还剩{}钱".format(class_money))
 ### 6. 使用运算符，求19的个位打印输出；求29的十位数字打印输出；189的每位数字输出；
-print(19 % 10)</br>
-print(29 // 10)</br>
-num = 189</br>
-num1 = num // 100</br>
-num2 = (num % 100) // 10</br>
-num3 = num % 10</br>
+print(19 % 10)
+
+print(29 // 10)
+
+num = 189
+
+num1 = num // 100
+
+num2 = (num % 100) // 10
+
+num3 = num % 10
+
 print("{}的每位数字输出为{},{},{}".format(num, num1, num2, num3))
 ### 7 、已知一个学生两科成绩：语文90；英语66；求该学生总成绩和平均成绩
-Chinese = 90</br>
-English = 66</br>
-grade = Chinese + English</br>
-avg = grade / 2</br>
+Chinese = 90
+
+English = 66
+
+grade = Chinese + English
+
+avg = grade / 2
+
 print("该学生总成绩为{},平均成绩为{}".format(grade, avg))
 ### 8、已知正方形边长为4，求正方形周长和面积
-l = 4</br>
-C2 = l * 4</br>
-S2 = l * l</br>
+l = 4
+
+C2 = l * 4
+
+S2 = l * l
+
 print("正方形周长为{},面积为{}".format(C2,S2))
 ### 9、已知一个圆半径为3.5，声明一个变量名为radius存储该圆半径，要求输出该圆的半径、周长和面积
-PI = 3.14</br>
-radius = 3.5</br>
-C3 = 2*PI*radius</br>
-S3 = PI*(radius**2)</br>
+PI = 3.14
+
+radius = 3.5
+
+C3 = 2*PI*radius
+
+S3 = PI*(radius**2)
+
 print("该圆的半径为{},周长为{},面积为{}".format(radius,C3,S3))
